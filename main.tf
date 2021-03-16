@@ -1,6 +1,6 @@
 module "dns" {
   source       = "genstackio/dns/aws"
-  version      = "0.1.0"
+  version      = "0.1.1"
   zone         = var.dns
   name         = var.env
   statics_file = var.statics_file
