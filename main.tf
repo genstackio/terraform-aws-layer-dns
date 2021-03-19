@@ -13,4 +13,5 @@ module "dns-google" {
   zone                  = module.dns.zone
   site_verification_ttl = 86400
   site_verification_id  = var.google_site_verification_id
+  mx_verification_id    = var.google_mx_verification_id
 }

@@ -16,3 +16,7 @@ variable "google_site_verification_id" {
   type    = string
   default = ""
 }
+variable "google_mx_verification_id" {
+  type    = string
+  default = ""
+}
